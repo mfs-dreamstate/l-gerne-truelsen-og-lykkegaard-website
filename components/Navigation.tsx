@@ -48,11 +48,17 @@ export default function Navigation() {
                   <Link href="/tjenester/forebyggende-sundhed" className="block px-3 py-2 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors">
                     Forebyggende sundhed
                   </Link>
-                  <Link href="/tjenester/kronisk-sygdomsbehandling" className="block px-3 py-2 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors">
-                    Kronisk sygdomsbehandling
+                  <Link href="/kroniske-sygdomme" className="block px-3 py-2 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors">
+                    Kroniske sygdomme
                   </Link>
-                  <Link href="/tjenester/vaccinationer" className="block px-3 py-2 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors">
+                  <Link href="/vaccinationer" className="block px-3 py-2 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors">
                     Vaccinationer
+                  </Link>
+                  <Link href="/boerneundersoegelser" className="block px-3 py-2 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors">
+                    Børneundersøgelser
+                  </Link>
+                  <Link href="/videokonsultation" className="block px-3 py-2 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors">
+                    Videokonsultation
                   </Link>
                   <Link href="/tjenester" className="block px-3 py-2 text-sm text-blue-600 font-medium hover:bg-blue-50 rounded-lg transition-colors">
                     Se alle tjenester →
@@ -104,6 +110,9 @@ export default function Navigation() {
                   <Link href="/find-vej" className="block px-3 py-2 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors">
                     Find vej
                   </Link>
+                  <Link href="/priser" className="block px-3 py-2 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors">
+                    Priser
+                  </Link>
                   <Link href="/selvbetjening" className="block px-3 py-2 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors">
                     Selvbetjening
                   </Link>
@@ -152,21 +161,45 @@ export default function Navigation() {
               <Link href="/" className="block text-gray-700 hover:text-blue-600 font-medium py-2">
                 Hjem
               </Link>
-              <Link href="/tjenester" className="block text-gray-700 hover:text-blue-600 font-medium py-2">
-                Tjenester
-              </Link>
+              <div className="border-l-2 border-blue-100 pl-4 space-y-2">
+                <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider">Tjenester</p>
+                <Link href="/tjenester" className="block text-gray-700 hover:text-blue-600 py-1">
+                  Alle tjenester
+                </Link>
+                <Link href="/kroniske-sygdomme" className="block text-gray-700 hover:text-blue-600 py-1">
+                  Kroniske sygdomme
+                </Link>
+                <Link href="/vaccinationer" className="block text-gray-700 hover:text-blue-600 py-1">
+                  Vaccinationer
+                </Link>
+                <Link href="/boerneundersoegelser" className="block text-gray-700 hover:text-blue-600 py-1">
+                  Børneundersøgelser
+                </Link>
+                <Link href="/videokonsultation" className="block text-gray-700 hover:text-blue-600 py-1">
+                  Videokonsultation
+                </Link>
+              </div>
               <Link href="/vores-laeger" className="block text-gray-700 hover:text-blue-600 font-medium py-2">
                 Vores læger
               </Link>
               <Link href="/om-os" className="block text-gray-700 hover:text-blue-600 font-medium py-2">
                 Om os
               </Link>
-              <Link href="/praktisk-info" className="block text-gray-700 hover:text-blue-600 font-medium py-2">
-                Praktisk info
-              </Link>
-              <Link href="/find-vej" className="block text-gray-700 hover:text-blue-600 font-medium py-2">
-                Find vej
-              </Link>
+              <div className="border-l-2 border-blue-100 pl-4 space-y-2">
+                <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider">Praktisk</p>
+                <Link href="/praktisk-info" className="block text-gray-700 hover:text-blue-600 py-1">
+                  Praktisk information
+                </Link>
+                <Link href="/find-vej" className="block text-gray-700 hover:text-blue-600 py-1">
+                  Find vej
+                </Link>
+                <Link href="/priser" className="block text-gray-700 hover:text-blue-600 py-1">
+                  Priser
+                </Link>
+                <Link href="/selvbetjening" className="block text-gray-700 hover:text-blue-600 py-1">
+                  Selvbetjening
+                </Link>
+              </div>
               <Link href="/kontakt" className="block text-gray-700 hover:text-blue-600 font-medium py-2">
                 Kontakt
               </Link>

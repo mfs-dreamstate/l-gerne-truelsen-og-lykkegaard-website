@@ -6,14 +6,24 @@ export default function HomePage() {
     <main className="min-h-screen">
       <Navigation />
       
-      {/* Hero Section */}
+      {/* Hero Section with Clinic Image */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+        {/* Clinic Reception Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://cms86355.sfstatic.io/upload_dir/pics/2015/06/_thumbs/foto-klinik-reception-start-e1612480267609.w1160.h440.fill.png"
+            alt="Lægerne Truelsen og Lykkegaard reception"
+            className="w-full h-full object-cover opacity-20"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-white/50 via-white/70 to-white/90" />
+        </div>
+
         {/* Background Elements */}
         <div className="absolute top-20 right-10 w-32 h-32 bg-gradient-to-br from-blue-400/20 to-blue-600/20 rounded-full blur-xl floating-orb" style={{ animationDelay: '0s' }} />
         <div className="absolute bottom-20 left-10 w-24 h-24 bg-gradient-to-br from-blue-300/30 to-blue-500/30 rounded-full blur-lg floating-orb" style={{ animationDelay: '2s' }} />
         <div className="absolute top-1/3 left-1/4 w-16 h-16 bg-gradient-to-br from-blue-500/15 to-blue-400/15 rounded-full blur-md floating-orb" style={{ animationDelay: '4s' }} />
         
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <div className="glass-card p-12 max-w-4xl mx-auto">
             <h1 className="font-display text-4xl md:text-6xl font-bold text-gray-900 mb-6">
               <span className="bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
@@ -217,8 +227,35 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Meet Your Doctors */}
+      {/* Clinic Image Section */}
       <section className="py-20 bg-gradient-to-b from-blue-50/50 to-transparent">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Vores moderne klinik
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              En indbydende og professionel klinik på Østerbro - velkommen indenfor
+            </p>
+          </div>
+          
+          <div className="glass-card p-4 max-w-5xl mx-auto">
+            <img 
+              src="https://cms86355.sfstatic.io/upload_dir/pics/2015/06/_thumbs/foto-klinik-reception-start-e1612480267609.w1160.h440.fill.png"
+              alt="Reception hos Lægerne Truelsen og Lykkegaard"
+              className="w-full h-auto rounded-lg shadow-lg"
+            />
+            <div className="mt-6 text-center">
+              <p className="text-gray-600">
+                Vores reception - hvor du altid mødes med et smil og professionel service
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Meet Your Doctors */}
+      <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-4">
