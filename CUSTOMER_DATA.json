@@ -1,0 +1,123 @@
+## Kontakt Information
+- **Navn:** Mads
+- **Email:** Stoltenborg@hotmail.dk
+- **Telefon:** 27831444
+- **Virksomhed:** LÆGERNE TRUELSEN OG LYKKEGAARD
+- **Foretrukken kontakt:** both
+
+## Design & Omfang
+- **Design ansvar:** dreamstate-designs
+- **Antal sider:** 16+
+- **Domæne:** has-domain
+
+## Designudkast
+- **Ønsker tilpasset designudkast:** Ja
+
+## GRATIS DESIGNUDKAST DATA
+
+### Brand & Design
+- **Valgt skabelon:** Modern Business
+- Beskrivelse: Et professionelt, moderne forretningsdesign med subtile glassmorphic elementer perfekt til konsulentfirmaer, bureauer og B2B virksomheder
+- **Brand farver:** #28b6e6, #3571b1
+
+### Sider & Indhold
+
+### Yderligere Noter
+Undersøg min nuværende hjemmeside og genbrug al tekst og opret de samme sider som vi har nu. Det eneste vi søger er et nyt og moderne site
+
+---
+
+## JSON Data (for internal use):
+```json
+{
+"pricing": {
+"estimatedPrice": 499,
+
+
+"currency": "DKK",
+"period": "monthly"
+},
+"companyInfo": {
+"name": "LÆGERNE TRUELSEN OG LYKKEGAARD",
+"contactPerson": "Mads",
+"industry": "Other",
+"email": "Stoltenborg@hotmail.dk",
+"phone": "27831444",
+"contactPreference": [
+"both"
+],
+"address": null
+},
+"brandDesign": {
+"logo": {
+"hasLogo": false,
+"url": "",
+"description": ""
+},
+"colors": {
+"primary": "#646cff",
+"secondary": "#64748b",
+"accent": [],
+"text": "#1A1A1A",
+"background": "#FFFFFF"
+},
+"fonts": {
+"primary": "Inter",
+"secondary": "Playfair Display",
+"preference": "modern"
+},
+"style": {
+"theme": "glassmorphism",
+"inspiration": [],
+"selectedTemplate": "Modern Business"
+}
+},
+"targetAudience": {
+"description": "",
+"demographics": {
+"ageRange": "",
+"location": "Denmark",
+"interests": []
+},
+"painPoints": [],
+"goals": []
+},
+"content": {
+"language": "da",
+"pages": {
+"home": {
+"hero": {
+"headline": "LÆGERNE TRUELSEN OG LYKKEGAARD",
+"subheadline": "",
+"description": "",
+"cta": {
+"primary": {
+"text": "Kom i gang",
+"link": "#contact"
+},
+"secondary": {
+"text": "Læs mere",
+"link": "#about"
+}
+}
+},
+"sections": []
+},
+"about": {
+"enabled": true,
+"headline": "Om os",
+"story": "",
+"mission": "",
+"vision": "",
+"values": [],
+"team": []
+},
+"services": {
+"enabled": true,
+"headline": "Vores services",
+"pageCount": "16+",
+"submittedAt": "2025-06-25T10:15:08.473Z",
+"formType": "website-calculator"
+}
+}
+```
