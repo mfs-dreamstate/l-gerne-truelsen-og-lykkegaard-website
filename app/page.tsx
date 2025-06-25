@@ -26,7 +26,7 @@ export default function HomePage() {
             </h1>
             
             <h2 className="text-xl md:text-2xl text-gray-700 mb-6 font-medium">
-              Professionel lægehjælp med personlig omsorg i hjertet af Danmark
+              Professionel lægehjælp med personlig omsorg på Østerbro
             </h2>
             
             <p className="text-lg text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
@@ -35,9 +35,9 @@ export default function HomePage() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Link href="/book-tid" className="btn-primary px-8 py-4 text-lg font-semibold rounded-xl hover:scale-105 transition-transform duration-200">
-                Book din tid
-              </Link>
+              <a href="https://www.aftalebogen.dk" target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-4 text-lg font-semibold rounded-xl hover:scale-105 transition-transform duration-200">
+                Book din tid online
+              </a>
               <Link href="/om-os" className="btn-secondary px-8 py-4 text-lg font-semibold rounded-xl hover:scale-105 transition-transform duration-200">
                 Lær os at kende
               </Link>
@@ -67,7 +67,7 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">To læger, dobbelt ekspertise</h3>
               <p className="text-gray-600">
-                Dr. Truelsen og Dr. Lykkegaard samarbejder om din behandling og sikrer omfattende pleje
+                Dr. Mette Lykke Truelsen og Dr. Lotte Amalie Kai Lykkegaard samarbejder om din behandling og sikrer omfattende pleje
               </p>
             </div>
 
@@ -236,7 +236,7 @@ export default function HomePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Dr. Truelsen</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Dr. Mette Lykke Truelsen</h3>
               <p className="text-blue-600 font-medium mb-4">Erfaren almen praktiserende læge</p>
               <p className="text-gray-600 mb-6">
                 Specialiseret i patientcentreret pleje med fokus på en grundig og omsorgsfuld tilgang til behandling
@@ -252,7 +252,7 @@ export default function HomePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Dr. Lykkegaard</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Dr. Lotte Amalie Kai Lykkegaard</h3>
               <p className="text-blue-600 font-medium mb-4">Ekspert i forebyggende medicin</p>
               <p className="text-gray-600 mb-6">
                 Passioneret omkring forebyggende sundhedspleje med særlig interesse for moderne behandlingsmetoder
@@ -278,14 +278,14 @@ export default function HomePage() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Link href="/book-tid" className="btn-primary px-8 py-4 text-lg font-semibold rounded-xl hover:scale-105 transition-transform duration-200">
-                Book din tid nu
-              </Link>
+              <a href="https://www.aftalebogen.dk" target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-4 text-lg font-semibold rounded-xl hover:scale-105 transition-transform duration-200">
+                Book din tid online
+              </a>
               <a href="tel:27831444" className="btn-secondary px-8 py-4 text-lg font-semibold rounded-xl hover:scale-105 transition-transform duration-200 flex items-center space-x-2">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                <span>Ring nu: 27831444</span>
+                <span>Ring nu: 35 26 61 01</span>
               </a>
             </div>
           </div>
@@ -302,11 +302,11 @@ export default function HomePage() {
                 Professionel lægehjælp med personlig omsorg. To erfarne læger dedikeret til dit velbefindende.
               </p>
               <div className="flex space-x-4">
-                <a href="tel:27831444" className="text-blue-600 hover:text-blue-700 font-medium">
-                  📞 27831444
+                <a href="tel:35266101" className="text-blue-600 hover:text-blue-700 font-medium">
+                  📞 35 26 61 01
                 </a>
-                <a href="mailto:Stoltenborg@hotmail.dk" className="text-blue-600 hover:text-blue-700 font-medium">
-                  ✉️ Stoltenborg@hotmail.dk
+                <a href="mailto:info@laegernetruelsenoglykkegaard.dk" className="text-blue-600 hover:text-blue-700 font-medium">
+                  ✉️ Email os
                 </a>
               </div>
             </div>

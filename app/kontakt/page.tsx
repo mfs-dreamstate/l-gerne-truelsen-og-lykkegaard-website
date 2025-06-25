@@ -112,8 +112,8 @@ export default function ContactPage() {
                       className="glass-input w-full px-6 py-4 text-gray-900"
                     >
                       <option value="">Vælg læge (valgfrit)</option>
-                      <option value="truelsen">Dr. Truelsen</option>
-                      <option value="lykkegaard">Dr. Lykkegaard</option>
+                      <option value="truelsen">Dr. Mette Lykke Truelsen</option>
+                      <option value="lykkegaard">Dr. Lotte Amalie Kai Lykkegaard</option>
                       <option value="any">Ingen præference</option>
                     </select>
                   </div>
@@ -154,8 +154,8 @@ export default function ContactPage() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Ring til os</h3>
                 <p className="text-gray-600 mb-4">Vi besvarer opkald i åbningstid</p>
-                <a href="tel:27831444" className="text-blue-600 hover:text-blue-700 font-semibold text-lg transition-colors">
-                  27831444
+                <a href="tel:35266101" className="text-blue-600 hover:text-blue-700 font-semibold text-lg transition-colors">
+                  35 26 61 01
                 </a>
               </div>
 
@@ -168,8 +168,8 @@ export default function ContactPage() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Send e-mail</h3>
                 <p className="text-gray-600 mb-4">Vi svarer inden for 24 timer</p>
-                <a href="mailto:Stoltenborg@hotmail.dk" className="text-blue-600 hover:text-blue-700 font-semibold transition-colors break-all">
-                  Stoltenborg@hotmail.dk
+                <a href="mailto:info@laegernetruelsenoglykkegaard.dk" className="text-blue-600 hover:text-blue-700 font-semibold transition-colors break-all">
+                  Email os
                 </a>
               </div>
 
@@ -183,21 +183,58 @@ export default function ContactPage() {
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Åbningstider</h3>
                 <div className="space-y-2 text-gray-600">
                   <div className="flex justify-between">
-                    <span>Mandag - Fredag:</span>
+                    <span>Mandag:</span>
                     <span className="font-medium">08:00 - 16:00</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Lørdag:</span>
-                    <span className="font-medium">09:00 - 12:00</span>
+                    <span>Tirsdag:</span>
+                    <span className="font-medium">08:00 - 16:00</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Søndag:</span>
+                    <span>Onsdag:</span>
+                    <span className="font-medium">08:00 - 17:00</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Torsdag:</span>
+                    <span className="font-medium">08:00 - 16:00</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Fredag:</span>
+                    <span className="font-medium">08:00 - 14:00</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Lørdag - Søndag:</span>
                     <span className="font-medium">Lukket</span>
                   </div>
                 </div>
                 <p className="text-sm text-gray-500 mt-4">
-                  *Akut hjælp efter lukketid: Ring 112 i livstruende situationer
+                  *Akut hjælp efter lukketid: Ring 1813
                 </p>
+              </div>
+
+              {/* Phone Hours */}
+              <div className="glass-card p-8">
+                <div className="w-12 h-12 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-xl flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Telefontider</h3>
+                <div className="space-y-4">
+                  <div>
+                    <p className="font-semibold text-gray-900 mb-2">Læge telefontid:</p>
+                    <p className="text-gray-600">Alle hverdage: 08:00 - 09:00</p>
+                    <p className="text-sm text-gray-500 mt-1">Kun for korte medicinske spørgsmål</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-gray-900 mb-2">Sekretær telefontid:</p>
+                    <div className="space-y-1 text-gray-600 text-sm">
+                      <div>Man, tirs, tors: 09:00 - 12:00</div>
+                      <div>Onsdag: Lukket efter 09:00</div>
+                      <div>Fredag: 09:30 - 12:00</div>
+                    </div>
+                  </div>
+                </div>
               </div>
 
               {/* Address */}
@@ -210,12 +247,12 @@ export default function ContactPage() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Find os</h3>
                 <p className="text-gray-600 mb-4">
-                  [Klinikadresse]<br />
-                  [Postnummer] [By]<br />
+                  Østerbrogade 142, 1. th.<br />
+                  2100 København Ø<br />
                   Danmark
                 </p>
                 <p className="text-sm text-gray-500">
-                  Gratis parkering tilgængelig
+                  1. sal - bred trappe med gelænder på begge sider
                 </p>
               </div>
             </div>
@@ -354,11 +391,11 @@ export default function ContactPage() {
                 Professionel lægehjælp med personlig omsorg. To erfarne læger dedikeret til dit velbefindende.
               </p>
               <div className="flex space-x-4">
-                <a href="tel:27831444" className="text-blue-600 hover:text-blue-700 font-medium">
-                  📞 27831444
+                <a href="tel:35266101" className="text-blue-600 hover:text-blue-700 font-medium">
+                  📞 35 26 61 01
                 </a>
-                <a href="mailto:Stoltenborg@hotmail.dk" className="text-blue-600 hover:text-blue-700 font-medium">
-                  ✉️ Stoltenborg@hotmail.dk
+                <a href="mailto:info@laegernetruelsenoglykkegaard.dk" className="text-blue-600 hover:text-blue-700 font-medium">
+                  ✉️ Email os
                 </a>
               </div>
             </div>

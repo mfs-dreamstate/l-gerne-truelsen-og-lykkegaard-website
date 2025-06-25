@@ -45,7 +45,7 @@ export default function AboutPage() {
               </p>
               
               <p className="leading-relaxed">
-                Dr. Truelsen og Dr. Lykkegaard bragte hver deres unikke ekspertise og erfaring sammen for 
+                Dr. Mette Lykke Truelsen og Dr. Lotte Amalie Kai Lykkegaard bragte hver deres unikke ekspertise og erfaring sammen for 
                 at skabe en praksis, der kombinerer det bedste fra moderne medicin med den personlige 
                 omsorg, der er kernen i god lægebehandling.
               </p>
@@ -193,9 +193,9 @@ export default function AboutPage() {
             </div>
 
             <div className="glass-card p-8 text-center">
-              <div className="text-4xl font-bold text-purple-600 mb-2">24/7</div>
-              <div className="text-xl font-semibold text-gray-900 mb-2">Akut assistance</div>
-              <p className="text-gray-600">Rådgivning og vejledning når du har brug for det</p>
+              <div className="text-4xl font-bold text-purple-600 mb-2">100%</div>
+              <div className="text-xl font-semibold text-gray-900 mb-2">Fast læge</div>
+              <p className="text-gray-600">Vi kender din sygehistorie og følger din sundhed løbende</p>
             </div>
           </div>
         </div>
@@ -213,9 +213,9 @@ export default function AboutPage() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Link href="/book-tid" className="btn-primary px-8 py-4 text-lg font-semibold rounded-xl hover:scale-105 transition-transform duration-200">
-                Book din første tid
-              </Link>
+              <a href="https://www.aftalebogen.dk" target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-4 text-lg font-semibold rounded-xl hover:scale-105 transition-transform duration-200">
+                Book din første tid online
+              </a>
               <Link href="/vores-laeger" className="btn-secondary px-8 py-4 text-lg font-semibold rounded-xl hover:scale-105 transition-transform duration-200">
                 Mød vores læger
               </Link>
@@ -234,11 +234,11 @@ export default function AboutPage() {
                 Professionel lægehjælp med personlig omsorg. To erfarne læger dedikeret til dit velbefindende.
               </p>
               <div className="flex space-x-4">
-                <a href="tel:27831444" className="text-blue-600 hover:text-blue-700 font-medium">
-                  📞 27831444
+                <a href="tel:35266101" className="text-blue-600 hover:text-blue-700 font-medium">
+                  📞 35 26 61 01
                 </a>
-                <a href="mailto:Stoltenborg@hotmail.dk" className="text-blue-600 hover:text-blue-700 font-medium">
-                  ✉️ Stoltenborg@hotmail.dk
+                <a href="mailto:info@laegernetruelsenoglykkegaard.dk" className="text-blue-600 hover:text-blue-700 font-medium">
+                  ✉️ Email os
                 </a>
               </div>
             </div>
